@@ -4,6 +4,7 @@ All paths and model names are defined here so every other module
 imports from a single source of truth.
 """
 
+
 import os
 from pathlib import Path
 from dotenv import load_dotenv

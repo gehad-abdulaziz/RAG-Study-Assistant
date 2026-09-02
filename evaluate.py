@@ -3,6 +3,7 @@ Evaluation script for the RAG Slide Assistant.
 Calculates Precision@k, Recall@k, Hit Rate@k, and MRR (Mean Reciprocal Rank).
 
 Run with:
+
     python evaluate.py
 """
 

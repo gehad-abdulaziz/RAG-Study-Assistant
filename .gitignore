@@ -1,0 +1,113 @@
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+
+# Environment Variables
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+
+# IDE / Editors
+
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+
+# Jupyter Notebook
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# OS Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+
+# Project Data
+
+# =========================
+
+# Course PDFs
+# Project Data
+Data/*.pdf
+Data/slides/*.pdf
+Data/vectorstore/
+
+# Generated FAISS / Vector Store
+
+data/vectorstore/
+
+# =========================
+
+# Logs / Temporary Files
+
+# =========================
+
+*.log
+*.tmp
+*.temp
+
+# =========================
+
+# Python Packaging
+
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+# =========================
+
+# Testing / Coverage
+
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+
+# Secrets / Credentials
+
+# =========================
+
+*.pem
+*.key
+credentials.json
+service-account*.json

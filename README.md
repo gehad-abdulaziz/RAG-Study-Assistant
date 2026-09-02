@@ -7,7 +7,7 @@ The **Adaptive RAG Study Assistant** is a capstone project that integrates Promp
 The system allows users to ask questions about a predefined collection of course slides and experiment with different prompting, memory, and chain configurations to observe their impact on the generated answers.
 
 > **Important:** This project does **not** fine-tune an LLM on the course slides. The slides are used as a retrieval knowledge base and are provided to the LLM as context at inference time.
-
+ 
 ---
 
 ## 🎯 Project Purpose

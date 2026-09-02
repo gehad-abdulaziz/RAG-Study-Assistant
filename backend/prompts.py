@@ -8,6 +8,7 @@ reuse the exact same prompting strategy without duplicating template text.
 
 from langchain_core.prompts import PromptTemplate
 
+
 # A small, reusable set of Few-Shot examples. In a real course you'd tailor
 # these to the subject; keep them short so they don't eat the context window.
 FEW_SHOT_EXAMPLES = """Example 1:

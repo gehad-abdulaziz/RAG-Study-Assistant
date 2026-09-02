@@ -609,38 +609,7 @@ I couldn't find sufficient evidence in the course material
 to answer this question.
 ```
 
-This behavior helps reduce hallucination and keeps the assistant aligned with its predefined knowledge base.
-
----
-
-# ⚠️ Limitations
-
-* The default `flan-t5-base` model is relatively small compared with modern large language models.
-* Generation quality may therefore be limited for complex or multi-step questions.
-* Retrieval quality depends on the embedding model, chunking strategy, and indexing configuration.
-* Summary and Entity Memory can introduce information loss depending on the conversation.
-* Different chain architectures may perform better for different question types.
-* The current evaluation dataset contains only a limited number of manually annotated queries.
-* Retrieval metrics do not directly measure final answer correctness.
-
----
-
-# 🔮 Future Improvements
-
-Planned or possible improvements include:
-
-* 🤖 Automatic pipeline selection based on question type
-* 🔎 Hybrid retrieval using dense + lexical search
-* 🎯 Reranking retrieved chunks
-* 📏 Retrieval confidence thresholds
-* 🧠 Query rewriting for conversational questions
-* 🔢 Adaptive Top-K selection
-* 📚 Better source and citation tracking
-* 🛡️ Stronger hallucination detection
-* 📊 Generation-level evaluation
-* ⚡ Larger instruction-tuned open-source LLMs
-* 🧪 More comprehensive evaluation datasets
-* 📈 Automated comparison of different pipeline configurations
+This behavior helps reduce hallucination and keeps the assistant aligned with its predefined knowledge based comparison of different pipeline configurations
 
 ---
 

@@ -7,6 +7,7 @@ set in .env, it switches to the hosted HF Inference API instead (lighter on
 your machine, same interface).
 """
 
+
 from typing import Optional
 
 from langchain_huggingface import HuggingFacePipeline, HuggingFaceEndpoint

@@ -6,6 +6,7 @@ Run this ONCE after dropping your slide PDFs into data/slides/:
 It loads the PDFs, chunks them, embeds them, and saves a FAISS index to
 data/vectorstore/. The Streamlit app and pipeline then just load this index
 instead of rebuilding it on every run.
+
 """
 
 from backend.ingestion import load_and_chunk_slides

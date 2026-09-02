@@ -42,6 +42,7 @@ class PipelineConfig:
     top_k: int = TOP_K
 
 
+
 @dataclass
 class PipelineResult:
     answer: str

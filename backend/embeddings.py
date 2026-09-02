@@ -10,6 +10,7 @@ Step 3 & 4 of the RAG pipeline: Embed chunks and build/load a FAISS index.
     Retriever
 """
 
+
 from pathlib import Path
 from typing import List, Optional
 

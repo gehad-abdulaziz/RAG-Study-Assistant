@@ -11,6 +11,7 @@ are answered strictly from the pre-loaded course slides (RAG, not fine-tuning).
 import sys
 from pathlib import Path
 
+
 # Allow running `streamlit run frontend/app.py` from the project root
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 

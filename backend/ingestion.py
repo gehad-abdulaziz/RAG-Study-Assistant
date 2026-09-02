@@ -10,6 +10,7 @@ Step 1 & 2 of the RAG pipeline: Load slide PDFs and split them into chunks.
     List[Document]  (chunks, ready for embedding)
 """
 
+
 import re
 from pathlib import Path
 from typing import List, Optional

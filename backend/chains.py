@@ -6,6 +6,7 @@ Chapter 6/8 content: the 4 Chain strategies.
     MapReduce          : chunk -> summary (map) -> combine (reduce)
     Refine             : answer1 -> refine with chunk2 -> refine with chunk3...
 
+
 Every chain here takes the SAME core inputs (a built prompt from prompts.py,
 retrieved context, question, history) so the pipeline layer can swap chains
 in/out based on the user's UI selection without special-casing each one.
